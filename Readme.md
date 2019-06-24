@@ -19,7 +19,7 @@
 
 ## 数据预处理
 
-Preprocessing/SplitTrainValid.py
+[SplitTrainValid.py](Preprocessing/SplitTrainValid.py)
 
 将官网上的数据集下载、解压。
 
@@ -27,7 +27,7 @@ Preprocessing/SplitTrainValid.py
 
 ## 模型
 
-Predict/Predict.py
+[Predict.py](Predict/Predict.py)
 
 网络结构为InceptionV3，后面添加了平均池化层、DropOut层、展开Flatten层和一层全连接网络，最后的输出为120的神经元，利用Softmax函数进行分类。
 
@@ -37,7 +37,7 @@ Predict/Predict.py
 
 ## 生成csv文件
 
-Model/Model.py
+[Model.py](Model/Model.py)
 
 代码逻辑很简单。
 
@@ -47,5 +47,5 @@ Model/Model.py
 
 ## Reference
 
-代码参考了 [holyhao](https://github.com/holyhao/Baidu-Dogs) ，在其基础上做了一 点修改。 
+代码参考了 [holyhao](https://github.com/holyhao/Baidu-Dogs) ，在其基础上做了一点修改。 
 
